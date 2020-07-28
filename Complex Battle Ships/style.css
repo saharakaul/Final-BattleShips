@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    float: left;
+    
+}
+.container {
+    width: 500px;
+    
+}
+
+.ship{
+    background-color: white;
+}
+.hitship{
+    background-color: red;
+}
+.missedship {
+    background-color: black;
+}
+hr{
+    clear: both
+}
+.placeShip{
+    background-color: grey;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.sea{
+    background-color: darkblue;
+}

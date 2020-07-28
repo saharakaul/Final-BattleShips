@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Battleships</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Battleships</h1>
+    <div id='container'>
+        <p class='clear'>
+            <p><button id='startGame'>Click here to start playing</button></p>
+            Click on the place you want to fire. If it turns red you hit and if it turns
+            black you missed.
+            <p id='displayWin'>
+                <p>Your Stats: Hit: <span id='numHit'>---</span> Miss: <span id='numMiss'>---</span> Sinks: <span id='numSink'>---</span></p>
+                <p>Computer Stats: Hit: <span id='cpuHit'>---</span> Miss: <span id='cpuMiss'>---</span> Sinks: <span id='cpuSink'>---</span></p>
+            <p>
+            <p id='displaySink'></p>
+            <p id='displayComputerSink'></p>
+        </p>
+    </div>
+    <h3>Computer board</h3>
+    <div id='cpu-container' class='container'>
+
+    </div>
+    <hr>
+    <h3>Player board</h3>
+    <p><button id='placeShipFor'>Place ships randomly</button></p>
+    <div id='player-container' class='container'>
+
+    </div>
+    
+
+    <!--Load JavaScript-->
+    <script src='math-extentions.js'></script>
+    <script src='grid.js'></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
